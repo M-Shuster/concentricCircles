@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+
+body{
+    background-color: darkgreen;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    width:50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loading {
+    from {border-color: goldenrod;}
+    to {border-color: darkgreen;}
+
+ }
+ 
+div#circleA {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px;
+    border-style: solid;
+    border-color: goldenrod;
+    animation:loading linear 2.5s infinite;
+    animation-delay: 2s;
+ }
+
+ div#circleB {
+    width: 180px;
+    height: 180px;
+    background-color:darkgreen;
+    border-radius: 50%;
+ }
+
+ div#circleC {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    border: 7.5px;
+    border-style: solid;
+    border-color: goldenrod;
+    animation:loading linear 2.5s infinite;
+    animation-delay: 1.5s;
+ }
+
+ div#circleD {
+    width: 155px;
+    height: 155px;
+    background-color: darkgreen;
+    border-radius: 50%;
+ }
+
+ div#circleE {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 10px;
+    border-style: solid;
+    border-color: goldenrod;
+    animation:loading linear 2.5s infinite;
+    animation-delay: 1s;
+ }
+
+ div#circleF {
+    width: 120px;
+    height: 120px;
+    background-color: darkgreen;
+    border-radius: 50%;
+ }
+
+ div#circleG {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 12.5px;
+    border-style: solid;
+    border-color: goldenrod;
+    animation:loading linear 2.5s infinite;
+    animation-delay: 0.5s;
+ }
+
+ div#circleH {
+    width: 75px;
+    height: 75px;
+    background-color: darkgreen;
+    border-radius: 50%;
+ }
+ 
+ div#circleI {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    border: 25px;
+    border-style: solid;
+    border-color: goldenrod;
+    animation:loading linear 2.5s infinite;
+ }
